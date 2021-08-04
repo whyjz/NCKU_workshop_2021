@@ -1,0 +1,22 @@
+name: nckuworkshop
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - ipywidgets
+  - matplotlib
+  - pandas
+  - geopandas
+  - pip
+  - ipympl
+  - jupyter-book=0.10
+  - seaborn
+  - xarray
+  - pygmt
+  - pip:
+    - rasterio
+    - shapely
